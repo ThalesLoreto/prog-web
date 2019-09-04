@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+li, a, button {
+  font-weight: bold;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+header {
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 10%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.logo {
+  margin-right: auto;
+  cursor: pointer;
+  height: 70px;
+  width: 70px;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0;
+}
+
+.nav-links li a {
+  padding: 9px 25px;
+  border-radius: 50px;
+  transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover{
+  background-color: rgba(0, 136, 169, 1);
+  color: black;
+}
+
+.button-contact {
+  margin-left: 20px;
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.button-contact:hover {
+  background-color: rgba(0, 136, 169, 0.8);
+  color: #fff;
+}
