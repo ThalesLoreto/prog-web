@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 
 * {
+  font-family: "Open Sans", sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -14,13 +15,12 @@ li,
 a,
 button {
   font-weight: bold;
-  font-size: 16px;
+  font-size: 14px;
   color: #edf0f1;
   text-decoration: none;
 }
 
 header {
-  font-family: "Open Sans", sans-serif;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -30,9 +30,13 @@ header {
 
 .logo {
   cursor: pointer;
-  height: 70px;
+  height: 60px;
   width: 70px;
 }
+
+/* 
+  Nav bar
+*/
 
 .nav-links {
   list-style: none;
@@ -54,4 +58,42 @@ header {
   border-bottom-width: 2px;
   border-bottom-color: #f1f1f1;
   transition: none;
+}
+
+/* 
+  Banner from Home page
+*/
+
+div.banner {
+  height: 550px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+
+  display: flex;
+  justify-content: space-between;
+  overflow: auto;
+}
+
+div.banner img {
+  width: 780px;
+}
+
+div div.main-section {
+  margin: 50px 0 0 10%;
+  color: #fff;
+
+  display: flex;
+  flex-direction: column;
+}
+
+div div.main-section h1 {
+  font-size: 38px;
+}
+
+div div.main-section p {
+  margin-top: 20px;
+}
+
+div div.main-section p strong {
+  font-size: 18px;
 }
