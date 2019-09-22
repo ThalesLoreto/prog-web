@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
 
 * {
   font-family: "Open Sans", sans-serif;
@@ -8,7 +9,7 @@
 }
 
 body {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: #E6ECF0;
 }
 
 li,
@@ -25,13 +26,17 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 10px 10%;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.65);
 }
 
 .logo {
   cursor: pointer;
-  height: 60px;
-  width: 70px;
+  height: 50px;
+  width: 50px;
+}
+
+.background-white {
+  background-color: #fff;
 }
 
 /* 
@@ -67,7 +72,7 @@ header {
 div.banner {
   height: 550px;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.65);
 
   display: flex;
   justify-content: space-between;
@@ -96,4 +101,38 @@ div div.main-section p {
 
 div div.main-section p strong {
   font-size: 18px;
+}
+
+/* Professor area */
+
+div.professor-area {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0 10% 10% 0;
+}
+
+.title {
+  margin: 50px;
+  text-align: center;
+  font-size: 38px;
+}
+
+div.professor-area img {
+  margin-right: 30px;
+  margin-left: 10%;
+  width: 300px;
+  height: 300px;
+}
+
+div.professor-area p {
+  margin-right: 10%;
+  color: rgba(2, 2, 2, 0.678);
+  font-family: 'Roboto Mono', monospace;
+}
+
+div.objectives {
+  height: 550px;
+  width: 100%;
 }
