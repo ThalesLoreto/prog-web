@@ -1,0 +1,123 @@
+.person-section {
+  display: flex;
+  width: 100%;
+  height: 90vh;
+  flex-direction: column;
+  padding: 10px 25px;
+}
+
+.person-container {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.person-item {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 0;
+  margin: 5px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.person-name {
+  color: #333;
+  font-size: 1.5rem;
+  margin: 15px;
+}
+
+.person-image {
+  width: 250px;
+  height: 250px;
+  border: solid 2px #333;
+  border-radius: 175px;
+}
+
+.team-title {
+  font-size: 2rem;
+  align-self: flex-start;
+}
+
+.page-person {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 2rem;
+}
+
+.page-person-title-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-start;
+}
+
+.page-person-title-container > p {
+  margin: 15px;
+  font-size: 2rem;
+  color: #333;
+}
+
+.page-person-content {
+  display: flex;
+  flex-basis: 70%;
+  flex-direction: column;
+  padding-left: 2rem;
+}
+
+.page-person-content > div {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.page-person-job-experience {
+  margin-bottom: 25px;
+}
+
+.page-person-content-text {
+  color: #333;
+  font-size: 1.2rem;
+  text-align: justify;
+  margin-left: 2rem;
+  margin-bottom: 5px;
+}
+
+.page-person-content-title {
+  color: #333;
+  font-size: 1.5rem;
+  text-decoration-line: underline;
+}
+
+.page-person-contact {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+.page-person-contact > a {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+}
+
+.page-person-contact > a > p {
+  color: #333;
+  font-size: 1rem;
+  margin-left: 10px;
+}
+
+.page-person-contact-image {
+  width: 50px;
+  height: 50px;
+}
